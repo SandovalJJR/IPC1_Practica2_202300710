@@ -4,6 +4,9 @@ import javax.swing.*;
 import javax.swing.border.BevelBorder;
 import java.awt.*;
 import java.awt.event.*;
+
+import static Estructura.DatosGlobales.editarDistanciaObj;
+
 public class Ruta implements ActionListener{
 
     private JButton cargarRutas;
@@ -56,6 +59,8 @@ public class Ruta implements ActionListener{
     }
 
     public void actionPerformed(ActionEvent e){
-
+        if(e.getSource() == editarDistancia){
+            editarDistanciaObj.mostrarVentana(true);
+        }
     }
 }

@@ -50,7 +50,6 @@ public class EditarDistancia implements ActionListener {
         aceptarB.setFocusable(false);
 
         ventanaEditarDistancia = new JFrame();
-        ventanaEditarDistancia.setDefaultCloseOperation(ventanaEditarDistancia.EXIT_ON_CLOSE);
         ventanaEditarDistancia.setResizable(false);
         ventanaEditarDistancia.setTitle("EDITAR DISTANCIA");
         ventanaEditarDistancia.setLayout(null);
